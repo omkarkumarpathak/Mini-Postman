@@ -5,6 +5,9 @@
 <h3>We used <b>ReactJs</b> for frontend and <b>NodeJs & ExpressJs</b> for backend server and for storing Logs and User, used Mikro-orm SQLite. Our sever is running on port=5000</h3>
 <br></br>
 <p>Our Main idea was to create two entity Schema for User and for Request Log. The using axios for doing CRUD on users via different endpoint apis and simultaneoulsy saving the logs in RequestLog Schema</p>
+<h5>How to run? First clone in Vscode</h5>
+<span>In backend folder:<b>nodemon index.js</b> </span>
+<span>In frontend folder:<b>npm run dev</b></span>
 <br></br>
 <h3>Created User</h3>
 <p>For creating user, we have to send the request from fontend via axios and save it in SQLlite db</p>
